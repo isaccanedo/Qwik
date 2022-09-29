@@ -1,0 +1,117 @@
+---
+source: packages/qwik/src/optimizer/core/src/test.rs
+expression: output
+---
+==INPUT==
+
+
+import { $, component, onRender } from '@builder.io/qwik';
+
+export const renderHeader = $(() => {
+    return (
+        <div onClick={$((ctx) => console.log(ctx))}/>
+    );
+});
+const renderHeader = component($(() => {
+  console.log("mount");
+  return render;
+}));
+
+============================= renderheader_zbbhwn4e8cg.tsx (ENTRY POINT)==
+
+import { qrl } from "@builder.io/qwik";
+export const renderHeader_zBbHWn4e8Cg = ()=>{
+    return <div onClick={qrl(()=>import("./renderheader_div_onclick_fv2uzal99u4")
+    , "renderHeader_div_onClick_fV2uzAL99u4")}/>;
+};
+import { handleWatch as hW } from "@builder.io/qwik";
+hW.issue123 && hW.issue123();
+export { hW as handleWatch };
+
+/*
+{
+  "origin": "test.tsx",
+  "name": "renderHeader_zBbHWn4e8Cg",
+  "entry": null,
+  "displayName": "renderHeader",
+  "hash": "zBbHWn4e8Cg",
+  "canonicalFilename": "renderheader_zbbhwn4e8cg",
+  "extension": "tsx",
+  "parent": null,
+  "ctxKind": "function",
+  "ctxName": "$",
+  "captures": false,
+  "loc": [
+    92,
+    175
+  ]
+}
+*/
+============================= renderheader_component_u6kkv07sbpq.tsx (ENTRY POINT)==
+
+export const renderHeader_component_U6Kkv07sbpQ = ()=>{
+    console.log("mount");
+    return render;
+};
+import { handleWatch as hW } from "@builder.io/qwik";
+hW.issue123 && hW.issue123();
+export { hW as handleWatch };
+
+/*
+{
+  "origin": "test.tsx",
+  "name": "renderHeader_component_U6Kkv07sbpQ",
+  "entry": null,
+  "displayName": "renderHeader_component",
+  "hash": "U6Kkv07sbpQ",
+  "canonicalFilename": "renderheader_component_u6kkv07sbpq",
+  "extension": "tsx",
+  "parent": null,
+  "ctxKind": "function",
+  "ctxName": "$",
+  "captures": false,
+  "loc": [
+    211,
+    261
+  ]
+}
+*/
+============================= test.tsx ==
+
+import { qrl } from "@builder.io/qwik";
+import { component } from '@builder.io/qwik';
+export const renderHeader = qrl(()=>import("./renderheader_zbbhwn4e8cg")
+, "renderHeader_zBbHWn4e8Cg");
+component(qrl(()=>import("./renderheader_component_u6kkv07sbpq")
+, "renderHeader_component_U6Kkv07sbpQ"));
+
+============================= renderheader_div_onclick_fv2uzal99u4.tsx (ENTRY POINT)==
+
+export const renderHeader_div_onClick_fV2uzAL99u4 = (ctx)=>console.log(ctx)
+;
+import { handleWatch as hW } from "@builder.io/qwik";
+hW.issue123 && hW.issue123();
+export { hW as handleWatch };
+
+/*
+{
+  "origin": "test.tsx",
+  "name": "renderHeader_div_onClick_fV2uzAL99u4",
+  "entry": null,
+  "displayName": "renderHeader_div_onClick",
+  "hash": "fV2uzAL99u4",
+  "canonicalFilename": "renderheader_div_onclick_fv2uzal99u4",
+  "extension": "tsx",
+  "parent": "renderHeader_zBbHWn4e8Cg",
+  "ctxKind": "function",
+  "ctxName": "$",
+  "captures": false,
+  "loc": [
+    137,
+    162
+  ]
+}
+*/
+== DIAGNOSTICS ==
+
+[]

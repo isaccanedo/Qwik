@@ -1,0 +1,145 @@
+---
+source: packages/qwik/src/optimizer/core/src/test.rs
+expression: output
+---
+==INPUT==
+
+
+import { $, component$ } from '@builder.io/qwik';
+
+export const Foo = component$(({color}) => {
+    return (
+        <div>
+            <Button {...props} />
+            <ButtonArrow {...props} />
+        </div>
+    );
+}, {
+    tagName: "my-foo",
+});
+
+export function Button({text, color}) {
+    return (
+        <button color={color} onClick$={()=>console.log(text, color)}>{text}</button>
+    );
+}
+
+export const ButtonArrow = ({text, color}) => {
+    return (
+        <button color={color} onClick$={()=>console.log(text, color)}>{text}</button>
+    );
+}
+
+============================= foo_component_htdrsvublie.tsx (ENTRY POINT)==
+
+import { Button } from "./test";
+import { ButtonArrow } from "./test";
+export const Foo_component_HTDRsvUbLiE = ({ color  })=>{
+    return <div >
+
+            <Button {...props}/>
+
+            <ButtonArrow {...props}/>
+
+        </div>;
+};
+
+/*
+{
+  "origin": "test.tsx",
+  "name": "Foo_component_HTDRsvUbLiE",
+  "entry": null,
+  "displayName": "Foo_component",
+  "hash": "HTDRsvUbLiE",
+  "canonicalFilename": "foo_component_htdrsvublie",
+  "extension": "tsx",
+  "parent": null,
+  "ctxKind": "function",
+  "ctxName": "component$",
+  "captures": false,
+  "loc": [
+    83,
+    221
+  ]
+}
+*/
+============================= buttonarrow_button_onclick_9npo43figik.tsx (ENTRY POINT)==
+
+import { useLexicalScope } from "@builder.io/qwik";
+export const ButtonArrow_button_onClick_9npo43fIGik = ()=>{
+    const [color, text] = useLexicalScope();
+    return console.log(text, color);
+};
+
+/*
+{
+  "origin": "test.tsx",
+  "name": "ButtonArrow_button_onClick_9npo43fIGik",
+  "entry": null,
+  "displayName": "ButtonArrow_button_onClick",
+  "hash": "9npo43fIGik",
+  "canonicalFilename": "buttonarrow_button_onclick_9npo43figik",
+  "extension": "tsx",
+  "parent": null,
+  "ctxKind": "event",
+  "ctxName": "onClick$",
+  "captures": true,
+  "loc": [
+    503,
+    531
+  ]
+}
+*/
+============================= button_button_onclick_nsm0jyv00jw.tsx (ENTRY POINT)==
+
+import { useLexicalScope } from "@builder.io/qwik";
+export const Button_button_onClick_NsM0JYV00Jw = ()=>{
+    const [color, text] = useLexicalScope();
+    return console.log(text, color);
+};
+
+/*
+{
+  "origin": "test.tsx",
+  "name": "Button_button_onClick_NsM0JYV00Jw",
+  "entry": null,
+  "displayName": "Button_button_onClick",
+  "hash": "NsM0JYV00Jw",
+  "canonicalFilename": "button_button_onclick_nsm0jyv00jw",
+  "extension": "tsx",
+  "parent": null,
+  "ctxKind": "event",
+  "ctxName": "onClick$",
+  "captures": true,
+  "loc": [
+    346,
+    374
+  ]
+}
+*/
+============================= test.tsx ==
+
+import { componentQrl } from "@builder.io/qwik";
+import { qrl } from "@builder.io/qwik";
+export const Foo = /*#__PURE__*/ componentQrl(qrl(()=>import("./foo_component_htdrsvublie")
+, "Foo_component_HTDRsvUbLiE"), {
+    tagName: "my-foo"
+});
+export function Button({ text , color  }) {
+    return <button color={color} onClick$={qrl(()=>import("./button_button_onclick_nsm0jyv00jw")
+    , "Button_button_onClick_NsM0JYV00Jw", [
+        color,
+        text
+    ])}>{text}</button>;
+}
+export const ButtonArrow = ({ text , color  })=>{
+    return <button color={color} onClick$={qrl(()=>import("./buttonarrow_button_onclick_9npo43figik")
+    , "ButtonArrow_button_onClick_9npo43fIGik", [
+        color,
+        text
+    ])}>{text}</button>;
+};
+
+== DIAGNOSTICS ==
+
+[]

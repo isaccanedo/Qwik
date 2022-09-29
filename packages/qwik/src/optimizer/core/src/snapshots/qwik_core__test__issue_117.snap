@@ -1,0 +1,18 @@
+---
+source: src/optimizer/core/src/test.rs
+assertion_line: 1017
+expression: output
+
+---
+==INPUT==
+
+
+export const cache = patternCache[cacheKey] || (patternCache[cacheKey]={});
+
+============================= project/test.tsx ==
+
+export const cache = patternCache[cacheKey] || (patternCache[cacheKey] = {});
+
+== DIAGNOSTICS ==
+
+[]

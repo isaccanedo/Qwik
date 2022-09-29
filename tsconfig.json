@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2020",
+    "module": "ES2020",
+    "lib": ["es2020", "DOM"],
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@builder.io/qwik",
+    "declaration": true,
+    "outDir": "./dist-dev/tsc-out",
+    "declarationDir": "./dist-dev/dts-out",
+    "isolatedModules": true,
+    "strict": true,
+    "importsNotUsedAsValues": "error",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "noUnusedLocals": true,
+    "paths": {
+      "~qwik-city-runtime": ["packages/qwik-city/runtime/src/index.ts"],
+      "@builder.io/qwik": ["packages/qwik/src/core/index.ts"],
+      "@builder.io/qwik/build": ["packages/qwik/src/build/index.ts"],
+      "@builder.io/qwik/jsx-runtime": ["packages/qwik/src/jsx-runtime/index.ts"],
+      "@builder.io/qwik/jsx-dev-runtime": ["packages/qwik/src/jsx-runtime/index.ts"],
+      "@builder.io/qwik/optimizer": ["packages/qwik/src/optimizer/src/index.ts"],
+      "@builder.io/qwik/server": ["packages/qwik/src/server/index.ts"],
+      "@builder.io/qwik/testing": ["packages/qwik/src/testing/index.ts"],
+      "@builder.io/qwik-react": ["packages/qwik-react/src/index.ts"],
+      "@builder.io/qwik-city": ["packages/qwik-city/runtime/src/index.ts"],
+      "@builder.io/qwik-city/middleware/cloudflare-pages": [
+        "packages/qwik-city/middleware/cloudflare-pages"
+      ],
+      "@builder.io/qwik-city/middleware/express": ["packages/qwik-city/middleware/express"],
+      "@builder.io/qwik-city/vite": ["packages/qwik-city/buildtime/vite/index"],
+      "@examples-data": ["packages/docs/src/layouts/examples/examples-data.ts"],
+      "@playground-data": ["packages/docs/src/layouts/playground/playground-data.ts"],
+      "@qwik-client-manifest": ["packages/qwik/src/server/server-modules.d.ts"],
+      "@qwik-city-plan": ["packages/qwik-city/runtime/src/library/qwik-city-plan.ts"],
+      "@tutorial-data": ["packages/docs/src/layouts/tutorial/tutorial-data.ts"],
+      "@repl-server-html": ["packages/docs/src/components/repl/worker/repl-server.ts"],
+      "@repl-server-url": ["packages/docs/src/components/repl/worker/repl-server.ts"],
+      "create-qwik": ["packages/create-qwik/api/index.ts"]
+    },
+    "types": ["jest", "node", "vite/client"],
+    "esModuleInterop": true,
+    "sourceRoot": ".",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "packages/qwik",
+    "packages/qwik-city",
+    "packages/qwik-react",
+    "packages/create-qwik",
+    // "packages/docs",
+    "scripts",
+    "starters"
+  ],
+  "exclude": [
+    "packages/create-qwik/dist",
+    "**/lib",
+    // "starters/servers",
+    // "starters/apps",
+    "starters/**/entry.netlify.ts",
+    "starters/**/entry.cloudflare.tsx",
+    "starters/**/entry.express.tsx",
+    "starters/**/entry.ssr.tsx",
+    "packages/qwik/**/*.d.ts",
+    "packages/qwik-dom"
+  ]
+}

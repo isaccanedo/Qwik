@@ -1,0 +1,130 @@
+@import 'prism-themes/themes/prism-dracula.css';
+
+code[class*='language-'],
+pre[class*='language-'] {
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 12px;
+  font-feature-settings: 'liga' 0, 'calt' 0;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+html {
+  --qwik-blue: #0093ee;
+  --qwik-dark-blue: #006eb3;
+  --qwik-light-blue: #daf0ff;
+  --qwik-purple: #5249d9;
+
+  --header-height: 56px;
+  --repl-tab-height: 56px;
+  --repl-tab-bg-color: var(--qwik-light-blue);
+}
+
+a,
+button,
+textarea,
+input,
+select {
+  touch-action: manipulation;
+}
+
+body {
+  @apply antialiased h-screen;
+}
+
+@media (max-width: 1023px) {
+  .menu-open .sidebar {
+    width: 100%;
+    @apply z-50;
+  }
+
+  .menu-open .menu {
+    @apply block;
+    @apply bg-gray-900;
+
+    @apply top-0;
+    @apply p-3;
+    @apply pr-16;
+    width: 360px;
+  }
+
+  .menu-open .menu h5 {
+    @apply p-2;
+  }
+
+  .menu-open .menu li a,
+  .menu-open .menu li a.is-active {
+    @apply p-3;
+    @apply text-slate-100 bg-transparent hover:text-slate-500;
+  }
+
+  .menu-open header {
+    pointer-events: none;
+    touch-action: none;
+    opacity: 0.4;
+    background-color: transparent;
+  }
+
+  .menu-open .breadcrumbs {
+    pointer-events: none;
+    touch-action: none;
+    opacity: 0.2;
+    background-color: transparent;
+  }
+
+  .menu-open main {
+    pointer-events: none;
+    touch-action: none;
+    opacity: 0.2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+  }
+
+  .menu-close {
+    @apply text-slate-300;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 300px;
+    width: 100%;
+    height: 100vh;
+    padding-left: 12px;
+    cursor: default;
+  }
+
+  .menu-close svg {
+    position: fixed;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 540px) {
+  body {
+    @apply bg-white;
+  }
+
+  .menu-open .menu {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .menu-open .menu a:hover {
+    @apply bg-transparent;
+    color: rgb(241 245 249 / var(--tw-text-opacity)) !important;
+  }
+}

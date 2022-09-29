@@ -1,0 +1,25 @@
+.history
+.vscode/settings.json
+dist
+lib
+dist-dev
+node_modules
+tsc-out
+external
+*.
+**/*.log
+etc
+temp
+tsdoc-metadata.json
+**/.DS_Store
+starters/**/server
+src/napi/package-*
+target
+*.node
+todo-express/
+qwik-app/
+packages/qwik-city/runtime/server
+
+# Yarn
+.yarn/*
+!.yarn/releases

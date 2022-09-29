@@ -1,0 +1,10 @@
+{
+  "description": "Prettier code formatter.",
+  "scripts": {
+    "fmt": "prettier --write .",
+    "fmt.check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  }
+}
