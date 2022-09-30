@@ -12,7 +12,7 @@
 
 O Qwik oferece os tempos de carregamento de página mais rápidos possíveis - independentemente da complexidade do seu site. O Qwik é tão rápido porque permite que sites totalmente interativos carreguem quase sem JavaScript e [pegar de onde o servidor parou](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/resumable.mdx).
 
-À medida que os usuários interagem com o site, apenas as partes necessárias do site são carregadas sob demanda. This [precision lazy-loading](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/progressive.mdx) is what makes Qwik so quick.
+À medida que os usuários interagem com o site, apenas as partes necessárias do site são carregadas sob demanda. Este [carregamento lento de precisão](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/progressive.mdx) is what makes Qwik so quick.
 
 ## Getting Started
 
