@@ -14,7 +14,7 @@ O Qwik oferece os tempos de carregamento de página mais rápidos possíveis - i
 
 À medida que os usuários interagem com o site, apenas as partes necessárias do site são carregadas sob demanda. Este [carregamento lento de precisão](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/progressive.mdx) is what makes Qwik so quick.
 
-## Getting Started
+## Começando
 
 Try out our starter:
 
