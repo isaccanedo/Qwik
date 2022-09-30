@@ -36,7 +36,7 @@ npm init qwik@latest
 - [Morte por encerramento (e como o Qwik resolve isso)](https://dev.to/mhevery/death-by-closure-and-how-qwik-solves-it-44jj)
 - [Qwik: a resposta para o carregamento preguiçoso de granulação fina ideal](https://dev.to/mhevery/qwik-the-answer-to-optimal-fine-grained-lazy-loading-2hdp)
 
-## Development
+## Desenvolvimento
 
 - See [Contributing.md](https://github.com/BuilderIO/qwik/blob/main/CONTRIBUTING.md) for more information on how to build Qwik from the source and contribute!
 
