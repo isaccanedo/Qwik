@@ -16,7 +16,7 @@ O Qwik oferece os tempos de carregamento de página mais rápidos possíveis - i
 
 ## Começando
 
-Try out our starter:
+Experimente o nosso iniciador:
 
 ```bash
 npm init qwik@latest
