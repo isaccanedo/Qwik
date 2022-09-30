@@ -32,7 +32,7 @@ npm init qwik@latest
 ## Postagens no blog
 
 - [HTML em primeiro lugar, JavaScript por último: o segredo para a velocidade da web!](https://dev.to/mhevery/html-first-javascript-last-the-secret-to-web-speed-4ic9)
-- [A first look at Qwik - the HTML first framework](https://dev.to/mhevery/a-first-look-at-qwik-the-html-first-framework-af)
+- [Uma primeira olhada no Qwik - o primeiro framework HTML](https://dev.to/mhevery/a-first-look-at-qwik-the-html-first-framework-af)
 - [Death by Closure (and how Qwik solves it)](https://dev.to/mhevery/death-by-closure-and-how-qwik-solves-it-44jj)
 - [Qwik: the answer to optimal fine-grained lazy loading](https://dev.to/mhevery/qwik-the-answer-to-optimal-fine-grained-lazy-loading-2hdp)
 
