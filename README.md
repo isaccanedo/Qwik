@@ -10,7 +10,7 @@
 
 # The HTML-first framework
 
-O Qwik oferece os tempos de carregamento de página mais rápidos possíveis - independentemente da complexidade do seu site. O Qwik é tão rápido porque permite que sites totalmente interativos carreguem quase sem JavaScript e [pickup from where the server left off](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/resumable.mdx).
+O Qwik oferece os tempos de carregamento de página mais rápidos possíveis - independentemente da complexidade do seu site. O Qwik é tão rápido porque permite que sites totalmente interativos carreguem quase sem JavaScript e [pegar de onde o servidor parou](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/resumable.mdx).
 
 As users interact with the site, only the necesary parts of the site load on-demand. This [precision lazy-loading](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/progressive.mdx) is what makes Qwik so quick.
 
