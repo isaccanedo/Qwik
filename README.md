@@ -8,7 +8,7 @@
   <img width="1229" alt="WWC22 - Qwik + Partytown: How to remove 99% of JavaScript from main thread" src="https://user-images.githubusercontent.com/111951/175145272-0df06434-7488-4e0e-933b-61358d4bd42b.png">
 </a>
 
-# The HTML-first framework
+# O primeiro framework HTML
 
 O Qwik oferece os tempos de carregamento de página mais rápidos possíveis - independentemente da complexidade do seu site. O Qwik é tão rápido porque permite que sites totalmente interativos carreguem quase sem JavaScript e [pegar de onde o servidor parou](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/resumable.mdx).
 
