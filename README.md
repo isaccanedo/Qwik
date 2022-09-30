@@ -22,7 +22,7 @@ Experimente o nosso iniciador:
 npm init qwik@latest
 ```
 
-- Entenda a diferença entre [retomable e replayable] (https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/resumable.mdx) applications.
+- Entenda a diferença entre aplicações [retomável e reproduzível] (https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/resumable.mdx).
 - Learn about Qwik's high level [mental model](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/think-qwik.mdx).
 
 ## Docs
