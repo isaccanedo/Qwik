@@ -29,7 +29,7 @@ npm init qwik@latest
 
 - [Official Docs](https://qwik.builder.io)
 
-## Blog Posts
+## Postagens no blog
 
 - [HTML-first, JavaScript last: the secret to web speed!](https://dev.to/mhevery/html-first-javascript-last-the-secret-to-web-speed-4ic9)
 - [A first look at Qwik - the HTML first framework](https://dev.to/mhevery/a-first-look-at-qwik-the-html-first-framework-af)
