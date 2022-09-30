@@ -38,7 +38,7 @@ npm init qwik@latest
 
 ## Desenvolvimento
 
-- Veja [Contributing.md](https://github.com/BuilderIO/qwik/blob/main/CONTRIBUTING.md) for more information on how to build Qwik from the source and contribute!
+- Veja [Contributing.md](https://github.com/BuilderIO/qwik/blob/main/CONTRIBUTING.md) para mais informações sobre como construir o Qwik a partir da fonte e contribuir!
 
 ## Community
 
