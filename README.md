@@ -23,7 +23,7 @@ npm init qwik@latest
 ```
 
 - Entenda a diferença entre aplicações [retomável e reproduzível] (https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/concepts/resumable.mdx).
-- Learn about Qwik's high level [mental model](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/think-qwik.mdx).
+- Saiba mais sobre o alto nível do Qwik [modelo mental](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/pages/docs/think-qwik.mdx).
 
 ## Docs
 
