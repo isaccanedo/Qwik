@@ -49,5 +49,5 @@ npm init qwik@latest
 ---
 
 <p align="center">
-  Made with ❤️ by <a target="_blank" href="https://www.builder.io/">Builder.io</a>
+  Feito com ❤️ por <a target="_blank" href="https://www.builder.io/">Builder.io</a>
 </p>
