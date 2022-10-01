@@ -40,11 +40,11 @@ npm init qwik@latest
 
 - Veja [Contributing.md](https://github.com/BuilderIO/qwik/blob/main/CONTRIBUTING.md) para mais informações sobre como construir o Qwik a partir da fonte e contribuir!
 
-## Community
+## Comunidade
 
-- Ping us at [@QwikDev](https://twitter.com/QwikDev)
-- Join our [Discord](https://qwik.builder.io/chat) community.
-- Join our [weekly office hours](https://calendar.google.com/calendar/u/0?cid=Y180ZG91YjR2NTZ1cW43YmgzbW1oZGJ2M3R2c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+- Ping-nos em [@QwikDev](https://twitter.com/QwikDev)
+- Junte-se ao nosso [Discord](https://qwik.builder.io/chat) community.
+- Junte-se ao nosso [weekly office hours](https://calendar.google.com/calendar/u/0?cid=Y180ZG91YjR2NTZ1cW43YmgzbW1oZGJ2M3R2c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 ---
 
